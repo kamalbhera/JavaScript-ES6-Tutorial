@@ -1,0 +1,24 @@
+[{
+    "name":"kamal",
+    "email": "example@gmail.com",
+    "links":[
+        {"Facebook": "https://fb.com/example"},
+        {"Twitter":"https://example"},
+        {"Instagram": "www.instagram.com/example"}
+    ],
+    "Skills":["Adobe Premier Pro","Adobe XD", "HTML","CSS","JavaScript","Windows","Microsoft Office","Photography"],
+    "Age":20,
+    "IsMarried":false
+},
+{
+    "name":"kamal",
+    "email": "example@gmail.com",
+    "links":[
+        {"Facebook": "https://fb.com/example"},
+        {"Twitter":"https://example"},
+        {"Instagram": "www.instagram.com/example"}
+    ],
+    "Skills":["Adobe Premier Pro","Adobe XD", "HTML","CSS","JavaScript","Windows","Microsoft Office","Photography"],
+    "Age":20,
+    "IsMarried":false
+}]

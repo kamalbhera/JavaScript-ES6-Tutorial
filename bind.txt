@@ -1,0 +1,2 @@
+What is bind?
+-- Bind: Using a method of one object as a method of another object is called Bind Method.

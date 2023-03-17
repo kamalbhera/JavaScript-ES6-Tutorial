@@ -1,0 +1,3 @@
+If we call another function from one function (means if we give another function inside one function) then between the functions
+The function creates a closed environment. In this case, the outer function accesses the outer function while the outer function can access the inner function
+can't The second function of this function is called closure.

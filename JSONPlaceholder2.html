@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JSON = JavaScript Object Notation</h1>
+    <ul id="email-list">
+
+    </ul>
+
+    <script>
+        fetch('https://jsonplaceholder.typicode.com/users')
+        .then(Response => Response.json())
+        .then(json => selectEmail(json))
+
+        function selectEmail(Emails){
+            const EmailSelecting = Emails.map(Email => Email.address.street);
+            const ul = document.getElementById("email-list");
+
+            for (let i = 0; i < EmailSelecting.length; i++) {
+                const EmailList = EmailSelecting[i];
+                const li = document.createElement("li");
+                li.innerText = EmailList;
+                ul.appendChild(li);
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+What is IP Address? -- 
+    IP means Internet Protocol. This is similar to a phone number. Every website has a unique IP address
